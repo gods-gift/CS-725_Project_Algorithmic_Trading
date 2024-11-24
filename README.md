@@ -1,5 +1,5 @@
 # CS-725_Project_Algorithmic-_Trading
-#Team Members
+# Team Members
 1) Veenu Chhabra (24M2135)
 2) Farhan Jawaid (24M0801)
 3) Ravi Sah (24M0854)
