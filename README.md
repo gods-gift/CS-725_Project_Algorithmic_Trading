@@ -1,4 +1,4 @@
-# CS-725_Project_Algorithmic-_Trading
+# CS-725_Project_Algorithmic_Trading
 
 Team Members
 1) Veenu Chhabra (24M2135)
