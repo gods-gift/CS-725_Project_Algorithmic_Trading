@@ -11,10 +11,12 @@ Veenu Chhabra (24M2135)
 Farhan Jawaid (24M0801)
 Ravi Sah (24M0854)
 Thibault Magnin (24V0016)
+
 Project Features
 Linear Regression with data transformations and regularization for stock price prediction.
 Recurrent Neural Networks (RNN) with dropout and optimization techniques, incorporating 3 layers to predict stock prices.
 Bidirectional LSTM models with 3 layers, dropout, and optimization for improved prediction accuracy.
+
 Files and Descriptions
 Linear_regression_to_predict_stock_price.ipynb
 Implements Linear Regression for stock price prediction with data transformations and regularization techniques.
@@ -67,20 +69,3 @@ Future Work
 Fine-tuning hyperparameters for Bidirectional LSTM models.
 Incorporating real-time stock market data streams.
 Exploring additional features for enhanced prediction accuracy.
-Contact
-For questions or contributions, feel free to contact:
-
-Veenu Chhabra: veenu.chhabra@example.com
-Let me know if you need further changes!
-
-
-
-
-
-
-
-
-
-
-
-ChatGPT can make mistakes.
