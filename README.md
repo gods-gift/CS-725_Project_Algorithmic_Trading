@@ -67,7 +67,7 @@ Bidirectional LSTMs outperform RNNs and Linear Regression models in stock price 
 
 ## **Technologies Used**
 - **Programming Language**: Python
-- **Libraries**: NumPy, Pandas, PyTorch, Scikit-learn, Matplotlib
+- **Libraries**: NumPy, Pandas, Torch, Scikit-learn, Matplotlib, yfinance
 - **Models**: Linear Regression, RNNs, Bidirectional LSTMs
 
 ## **Future Work**
