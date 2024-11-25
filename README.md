@@ -1,4 +1,4 @@
-#CS-725 Project: Algorithmic Trading
+#CS-725_Project_Algorithmic_Trading
 
 Overview
 This project aims to develop an algorithmic trading strategy designed for mid and long-term investments by leveraging fundamental analysis and machine learning techniques. Through comprehensive experimentation with models such as Linear Regression, RNNs, and Bidirectional LSTMs, we concluded that Bidirectional LSTMs perform better for stock price prediction.
