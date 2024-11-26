@@ -20,6 +20,62 @@ This project is licensed under the **MIT License**. See the [LICENSE](./LICENSE)
 - **Recurrent Neural Network (RNN) Model**: Stock price prediction using an RNN with three layers, dropout for regularization, and optimized loss functions.
 - **Bidirectional LSTM Model**: Stock price prediction using a three-layer Bi-LSTM model with dropout and optimization techniques, outperforming both RNN and Linear Regression models.
 
+---
+
+## Filters
+
+The function `filter_companies` applies the following filters:
+
+1. **Price-to-Earnings (P/E) Ratio**:
+   - A measure of a company's valuation relative to its earnings.
+   - Filters companies with a `P/E Ratio` **greater than or equal to** the specified threshold (`pe`).
+
+2. **Price-to-Book (P/B) Ratio**:
+   - Indicates the valuation of a company relative to its book value.
+   - Filters companies with a `Price-to-Book Ratio` **less than** the specified threshold (`pb`).
+
+3. **Return on Equity (ROE)**:
+   - A measure of financial performance, calculated as net income divided by shareholders' equity.
+   - Filters companies with `ROE` **greater than** the specified threshold (`roe`).
+
+4. **Earnings Per Share (EPS)**:
+   - Indicates profitability per share of a company.
+   - Filters companies with `EPS` **greater than** the specified threshold (`eps`).
+
+5. **Debt-to-Equity (D/E) Ratio**:
+   - Assesses a company's financial leverage.
+   - Filters companies with a `Debt/Equity` ratio **less than** the specified threshold (`de`). 
+   - Companies with `Debt/Equity` data missing (e.g., `NaN`) are also included in the results.
+
+---
+
+## Usage
+
+The script is designed to process three categories of stocks: **large-cap**, **mid-cap**, and **small-cap**. Here are the specific thresholds used for each category:
+
+### Large-Cap Stocks
+- `P/E Ratio ≥ -10`
+- `P/B Ratio < 10`
+- `ROE > 0`
+- `EPS > 10`
+- `Debt/Equity < 70`
+
+### Mid-Cap Stocks
+- `P/E Ratio ≥ -10`
+- `P/B Ratio < 12`
+- `ROE > 0`
+- `EPS > 6`
+- `Debt/Equity < 70`
+
+### Small-Cap Stocks
+- `P/E Ratio ≥ 15`
+- `P/B Ratio < 50`
+- `ROE > 0`
+- `EPS > 3`
+- `Debt/Equity < 60`
+
+---
+
 ## **Files and Descriptions**
 
 - **Linear_regression_to_predict_stock_price.ipynb**: Implements a Linear Regression model for stock price prediction using data transformations and regularization techniques.
